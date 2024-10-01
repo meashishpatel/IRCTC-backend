@@ -4,8 +4,6 @@
 
 <i>A Node.js-powered backend system designed to streamline train seat bookings and schedule management for both users and administrators.</i>
 
-[![Watch Demo](https://img.shields.io/badge/Youtube-Demo-red?style=for-the-badge&logo=youtube)](https://youtu.be/deWxKmGd67A)
-
 </div>
 
 ---
@@ -98,6 +96,8 @@ This will start the server on `http://localhost:3000`.
 }
 ```
 
+![alt text](image-3.png)
+
 - **POST /login** - Login a user</br>
   Request Body: </br>
 
@@ -108,11 +108,14 @@ This will start the server on `http://localhost:3000`.
 }
 ```
 
+![alt text](image-4.png)
+
 ## User Endpoints
 
 - **GET /trains/availability** - Fetch available trains </br>
   Query Parameters:</br>
   `source=CityA&destination=CityB`
+  ![alt text](image.png)
 - **POST /book** - Book ticket </br>
   Request Body: </br>
 
@@ -122,9 +125,12 @@ This will start the server on `http://localhost:3000`.
 }
 ```
 
+![alt text](image-1.png)
+
 - **GET /booking/details** - Get specific booking details</br>
   Query Parameters:</br>
   `booking_id=1`
+  ![alt text](image-2.png)
 
 ## Admin Endpoints
 
@@ -140,6 +146,8 @@ This will start the server on `http://localhost:3000`.
 }
 ```
 
+![alt text](image-5.png)
+
 - **PATCH /admin/train/:trainId** - Increase number of total seats</br>
   Request Body: </br>
 
@@ -148,3 +156,5 @@ This will start the server on `http://localhost:3000`.
   "add_seats": 1
 }
 ```
+
+![alt text](image-6.png)
