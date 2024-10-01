@@ -158,3 +158,9 @@ This will start the server on `http://localhost:3000`.
 ```
 
 ![alt text](image-6.png)
+
+# 🚀 Running Tests
+
+To run tests for your API endpoints, use Postman or any API testing tool. Ensure the server is running before testing the endpoints.
+
+I have exported the Postman collections in `irctcBackend.postman_collection.json` and included them in the repository. You can import the JSON file and try the endpoints easily.
