@@ -42,7 +42,7 @@
 #### 1. Clone the repository
 
 ```bash
-git clone https://github.com/mayank2808sharma/IRCTC-backend
+git clone https://github.com/meashishpatel/IRCTC-backend
 cd IRCTC-backend
 ```
 
